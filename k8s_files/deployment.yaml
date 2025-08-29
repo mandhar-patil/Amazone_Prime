@@ -3,6 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mandhar-app
+  namespace: clone
   labels:
     app: mandhar-app
 spec:
